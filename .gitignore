@@ -1,1 +1,10 @@
 dataset/
+# Ignore generated images
+university_135_year_employment_by_industry/
+university_employment_status/
+university_graduation_employment/
+colleges_135_year_employment_by_industry/
+colleges_employment_status/
+colleges_graduation_employment/
+departments_graduation_employment/
+poster/*.png
