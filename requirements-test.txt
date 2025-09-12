@@ -1,0 +1,25 @@
+# Testing dependencies for NCU Alumni Employment Analysis
+# Core testing framework
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+
+# Data testing
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Visualization testing
+matplotlib>=3.6.0
+
+# Code quality and coverage
+coverage>=7.0.0
+flake8>=6.0.0
+black>=23.0.0
+
+# Performance testing
+memory-profiler>=0.60.0
+
+# Additional testing utilities
+pytest-xdist>=3.0.0  # Parallel test execution
+pytest-html>=3.1.0   # HTML test reports
+pytest-benchmark>=4.0.0  # Performance benchmarking
