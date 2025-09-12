@@ -8,3 +8,7 @@ colleges_employment_status/
 colleges_graduation_employment/
 departments_graduation_employment/
 poster/*.png
+
+# Ignore presentation and poster folders
+PPT/
+poster/
