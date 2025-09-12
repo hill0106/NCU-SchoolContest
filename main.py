@@ -245,9 +245,9 @@ def getMajorWorkTypeData(s):
 def plotWorkTypeTotal(s, data1, data3, data5):
     title = str(s)
     if(str(s)=='全校'):
-        filename = '全校一三五年就業類別/全校135年就業類別.png'
+        filename = 'university_135_year_employment_by_industry/university_135_year_employment_by_industry.png'
     else:
-        filename = '各學院一三五年就業類別/' + str(s) + '135年就業類別.png'
+        filename = 'colleges_135_year_employment_by_industry/' + str(s) + '135年就業類別.png'
     t1 = []
     n1 = []
     t3 = []
@@ -348,7 +348,7 @@ def plotWorkTypeTotal(s, data1, data3, data5):
 
 def plotWorkType(s, data):
     title = str(s)
-    filename = '各學院畢業就業/' + title + '.png'
+    filename = 'colleges_graduation_employment/' + title + '.png'
     t = []
     n = []
     for obj in data:
@@ -387,10 +387,10 @@ def plotWorkType(s, data):
 def plotInJobTotal(s, data1, data3, data5):
     if str(s) == '全校':
         title = '全校畢業後一、三、五年就職狀況'
-        filename = '全校就職情況'+'/3類別.png'
+        filename = 'university_employment_status'+'/employment_status_categories.png'
     else:
         title = str(s) + '畢業後一、三、五年就職狀況'
-        filename = '各學院就職狀況'+'/'+str(s)+'_3類別.png'
+        filename = 'colleges_employment_status'+'/'+str(s)+'_3類別.png'
     fulltime1  = 0
     parttime1 = 0
     nojob1 = 0
@@ -476,7 +476,7 @@ def plotMajorWorkType(s, data, idx):
     m = dataset1['leave_school_name']== s
     dd = dataset1[m]
     title = str(s) + ' ' + str(dd['leave_dept_name'].unique()[int(idx)])
-    filename = '各系畢業就業/' + s + '/' +str(dd['leave_dept_name'].unique()[int(idx)])+'.png'
+    filename = 'departments_graduation_employment/' + s + '/' +str(dd['leave_dept_name'].unique()[int(idx)])+'.png'
     for obj in data:
         if obj.major == dd['leave_dept_name'].unique()[idx]:
             n.append(obj.num)
@@ -616,9 +616,9 @@ def plot135YearWorkType(s1, s2, data1, data3, data5):
     cmap = cm.jet(np.linspace(0, 1, 19))
     fig = plt.figure(figsize=(15, 8))
     if(str(s1)=='全校'):
-        filename = str(s1) + '一三五年就業類別/' + str(s1) + '135年就業情況.png'
+        filename = 'university_135_year_employment_by_industry/' + str(s1) + '135年就業情況.png'
     else:
-        filename = str(s1) + '一三五年就業類別/' + str(s2) + '135年就業情況.png'
+        filename = 'colleges_135_year_employment_by_industry/' + str(s2) + '135年就業情況.png'
     plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] 
     plt.rcParams['axes.unicode_minus'] = False
 

@@ -77,49 +77,49 @@ NCU-SchoolContest/
 │   ├── first.csv                     # 1-year post-graduation data
 │   ├── third.csv                     # 3-year post-graduation data
 │   ├── fifth.csv                     # 5-year post-graduation data
-│   └── 畢業生流向問卷.xlsx           # Original survey data
+│   └── graduate_survey_data.xlsx     # Original survey data
 ├── main.py                           # Main analysis script
 ├── output.txt                        # Analysis results output
 ├── poster/                           # Research poster materials
 │   ├── Screenshot 2025-03-12 at 16.07.39.png
-│   └── 校務研究海報競賽_hellonihaoma_分析中大校友具高競爭力的產業類別.pdf
+│   └── ncu_alumni_employment_analysis_poster.pdf
 ├── PPT/                              # Presentation materials
-│   ├── 校務研究海報競賽_hellonihaoma_分析中大校友具高競爭力的產業類別.pdf
-│   └── 校務研究海報競賽_hellonihaoma_分析中大校友具高競爭力的產業類別.pptx
-├── 全校一三五年就業類別/             # University-wide employment by industry
-├── 全校就職情況/                     # University-wide employment status
-├── 全校畢業就業/                     # University-wide graduation employment
-├── 各學院一三五年就業類別/           # College-specific employment by industry
-├── 各學院就職狀況/                   # College-specific employment status
-├── 各學院畢業就業/                   # College-specific graduation employment
-└── 各系畢業就業/                     # Department-specific employment data
-    ├── 地球科學學院/
-    ├── 太空及遙測研究中心/
-    ├── 客家學院/
-    ├── 工學院/
-    ├── 文學院/
-    ├── 理學院/
-    ├── 生醫理工學院/
-    ├── 管理學院/
-    └── 資訊電機學院/
+│   ├── ncu_alumni_employment_analysis_poster.pdf
+│   └── ncu_alumni_employment_analysis_presentation.pptx
+├── university_135_year_employment_by_industry/    # University-wide employment by industry
+├── university_employment_status/      # University-wide employment status
+├── university_graduation_employment/  # University-wide graduation employment
+├── colleges_135_year_employment_by_industry/      # College-specific employment by industry
+├── colleges_employment_status/        # College-specific employment status
+├── colleges_graduation_employment/    # College-specific graduation employment
+└── departments_graduation_employment/ # Department-specific employment data
+    ├── earth_sciences_college/
+    ├── space_remote_sensing_center/
+    ├── hakka_studies_college/
+    ├── engineering_college/
+    ├── liberal_arts_college/
+    ├── science_college/
+    ├── biomedical_engineering_college/
+    ├── management_college/
+    └── electrical_computer_science_college/
 ```
 
 ## 📈 Sample Visualizations
 
 ### University-wide Employment Trends
-![University-wide Employment by Industry](./全校一三五年就業類別/全校135年就業類別.png)
+![University-wide Employment by Industry](./university_135_year_employment_by_industry/university_135_year_employment_by_industry.png)
 
 ### Employment Status Distribution
-![Employment Status](./全校就職情況/3類別.png)
+![Employment Status](./university_employment_status/employment_status_categories.png)
 
 ### College-specific Analysis
-![College Employment Trends](./各學院一三五年就業類別/工學院135年就業情況.png)
+![College Employment Trends](./colleges_135_year_employment_by_industry/engineering_college_135_year_employment_trends.png)
 
 ## 🎨 Research Poster
 
 ![Research Poster](./poster/Screenshot%202025-03-12%20at%2016.07.39.png)
 
-[📄 View Full PDF Poster](./poster/校務研究海報競賽_hellonihaoma_分析中大校友具高競爭力的產業類別.pdf)
+[📄 View Full PDF Poster](./poster/ncu_alumni_employment_analysis_poster.pdf)
 
 ## 🔧 Usage
 
